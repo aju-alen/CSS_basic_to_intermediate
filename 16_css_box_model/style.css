@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+h1,
+p{
+color: white;
+}
+
+
+
+h1{
+    background: red;
+    padding: 20px ;
+    margin: 20px;
+    border: 20px dashed orange
+}
+/* for boder properties, first is width then style then color */
+
+p{
+    background: blue;
+    padding: 40px 10px; 
+    margin: 20px 40px;
+    border-style: outset;
+    border-width: 40px;
+    border-color: brown;
+}
+
+/* 2 value padding is 2 for top and 2 for sides */

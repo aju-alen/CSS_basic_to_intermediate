@@ -1,0 +1,44 @@
+*{
+    margin:0;
+}
+
+.navbar{
+    background: rebeccapurple;
+    height: 100px;
+    color: coral;
+    font-size:3rem;
+}
+
+/*---------------------------------------------------------
+ min-height keeps the org height if the text is less than specified height and if text goes above the specified height, it drags the height till text is complete 
+ ------------------------------------------------------  */
+.banner{
+    background: red;
+   min-height: calc(100vh - 100px) ;
+max-height:90vh;
+overflow: scroll;
+
+    
+}
+/*----------------------------------------------------- the banner needs to fill the page but shouldnt scroll 
+
+so we use calc to exactly fit the page 
+
+---------------------------------------------------------*/
+
+/* -----------------------------------------------------------here we learn when text exit the provided width and height. here we use the overflow properrty
+
+overflow: hidden - hides the text outside the provided height and width
+
+
+overflow:scroll - scrolls the text within the given height and width 
+--------------------------------------------------------*/
+
+
+.example{
+    background:green;
+    width:10rem;
+    height:25rem;
+    overflow: hidden;
+    overflow: scroll;
+}

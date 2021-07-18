@@ -1,0 +1,38 @@
+.nav{
+    background: red;
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+    position: sticky;
+    margin-top: 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+div{
+    border: 3px solid red;
+    background: yellow;
+    margin-top: px;
+    
+}
+
+.one{
+    background: blue;
+    color: white;
+    
+   
+}
+.two{
+    background: green;
+    color: white;
+    height: 1000px ;
+   
+    
+}
+.special{
+background: pink;
+font-size: 20px;
+color: black;
+
+}

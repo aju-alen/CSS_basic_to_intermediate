@@ -1,0 +1,24 @@
+
+.parent{
+    width: 1000px;
+    height: 2000px;
+    background: green;
+}
+
+
+.child{
+    width: 99%;
+    height: 99%;
+    background: red;
+}
+
+
+/* % depends on fixed values such as px
+
+
+so if in the parent classs 50px i mentioned 
+
+then 50% of it will be show 
+
+
+% alone cannot work without apecifying px*/

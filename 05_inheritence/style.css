@@ -1,0 +1,19 @@
+/* INheritence
+where child inherits styles from the parent */
+
+
+body{
+    color:crimson;
+    font-size: 20px;
+    font-family: cursive;
+    border:3px solid rebeccapurple
+
+}
+
+.char{
+    color:darkblue;
+    border: 7px solid black;
+}
+h2{
+    color:darkgreen
+}

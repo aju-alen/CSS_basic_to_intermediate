@@ -1,0 +1,34 @@
+
+
+/* --------------------------------
+Font-family has many fonts so that if the main font isnt supported by the browser, it can use the backup fonts 
+------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
+
+body{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    text-align: center;
+}
+
+
+.main{
+text-shadow: brown;
+    
+   
+    
+}
+.sub{
+    text-anchor: middle;
+}
+.one{
+    text-align: left;
+    text-indent: 50px  ;
+
+}
+.two{
+    text-emphasis-color: blue;
+    
+
+}
+
+

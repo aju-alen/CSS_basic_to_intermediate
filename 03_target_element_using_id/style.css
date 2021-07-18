@@ -1,0 +1,30 @@
+/* ID selectors (the id is used to syle using css)*/
+
+    #header{
+        color:chartreuse;
+        background: crimson;
+    }
+    
+    #footer{
+        color: darkblue;
+        background: darkgreen;
+    }
+    
+
+
+    /* class selector (class uses .claas */
+
+    .reen{
+        color:darkgreen;
+        background: darkgrey;
+    }
+    .ed{
+        color:red;
+        background: black;
+    
+    }
+
+    .upper{
+        font-size: 50px;
+        text-transform: capitalize;
+    }

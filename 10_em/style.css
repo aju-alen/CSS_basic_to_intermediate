@@ -1,0 +1,32 @@
+/* em is standard browser value where 
+
+1em = 16px
+
+2em = 32 px 
+em value is 16 generally */
+
+div{
+    font-size: 2px;
+}
+.absolute{
+    font-size: 32px;
+
+}
+.relative{
+    font-size: 16em; 
+}
+/* here relative class is affected by the div font size caus div is the parent 
+if div tag wasnt present, the internet browser would have been the parent which has 16px */
+
+
+/* 
+
+there is also rem unit which is "root em"
+
+so divs font size dont affect rem cause it dempends on the root  */
+
+.reem{
+    font-size: 2rem;
+}
+
+/* only html tag affect rem cause its the root */

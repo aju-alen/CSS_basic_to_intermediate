@@ -1,0 +1,37 @@
+/* last rule specifity is that the style at the end is the properties it will inherit and a class har m0ore priority than last rules
+
+
+so in order 
+the inner the class the more the priority it has */
+
+
+
+p{
+    color: red;
+
+}
+
+/* more code here
+
+
+*/
+p{
+    color: royalblue;
+}
+
+/* id has more priority than class  */
+#strong{
+    color:seagreen;
+}
+.strong{
+    color:yellow;
+}
+
+
+/* if you universal selector "*"   it has least priority */
+
+
+*{
+    color:white;
+    background: black;
+}

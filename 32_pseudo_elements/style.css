@@ -1,0 +1,65 @@
+/* p::before{
+    content: "hello there ";
+    font-family: cursive;
+    color: white;
+    background-color: red;
+border: 3px solid black;
+display:block;
+}
+p::after{
+    content:"";
+    font-family: cursive;
+    color: white;
+    background-color: red;
+border: 3px solid black;
+display:block;
+} */
+
+
+div{
+    width: 30vw;
+margin: 100px auto;
+position: relative;
+box-sizing: border-box;
+    
+}
+
+img{
+    width: 100%;
+    display: block;
+
+    
+}
+div::before{
+    content:"";
+    border: 2px solid grey;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    z-index:-4;
+    box-sizing: border-box;
+    transition: all 0.5s linear;
+}
+
+div::after{
+    content:"";
+    background:rgba(90, 223, 123, 0.4);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index:2;
+    box-sizing: border-box;
+    transition: all 0.5s linear;
+    
+
+}
+div:hover::before, div:hover::after{
+    top: 0px;
+    left: 0px;
+}
+
+

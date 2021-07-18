@@ -1,0 +1,23 @@
+div{
+    background: red;
+    margin: 10px;
+    color: white;
+    font-size: 24px;
+    
+}
+.none{
+    display: none;
+
+}
+.opa1{
+    opacity: 1;
+}
+.opa5{
+    opacity: 0.5;
+}
+.opa0{
+    opacity: 0;
+}
+.visi{
+    visibility: hidden;
+}

@@ -1,0 +1,19 @@
+div{
+    width: 48vw;
+    height: 150px;
+    display: inline-block;
+  
+}
+.one{
+    background: red;
+    transform: translate(200px,500px);
+
+}
+.two{
+    background: green;
+    transform: scale(1.9);
+}
+.three{
+    background: blue;
+transform: rotate(240deg);
+}

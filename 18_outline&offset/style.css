@@ -1,0 +1,25 @@
+*{
+    text-decoration: none;
+}
+.links{
+    margin: 60 ;
+
+}
+a{
+    background: rgb(130, 201, 130);
+    padding: 30px 25px;
+    color: black;
+    text-transform: uppercase;
+    margin: 60px ;
+}
+#one{
+    border: 8px solid black;
+
+}
+#two{
+    outline-width: 4px;
+    outline-color: black;
+    outline-style: solid;
+    outline-offset: -10px;
+
+}

@@ -1,0 +1,20 @@
+
+.green{
+    color:rgb(136, 108, 108);
+    background: rgb(139, 192, 39);
+}
+.red{
+    color:rgb(19, 2, 2);
+    background: rgb(32, 99, 62);
+    text-transform: uppercase;
+}
+span{
+    color:saddlebrown;
+    text-transform: uppercase;
+}
+
+
+
+/* div is used to style headings
+
+and span is used to style inner lines */

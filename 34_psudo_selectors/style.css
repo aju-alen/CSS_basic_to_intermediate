@@ -1,0 +1,21 @@
+p::first-letter{
+    font-size: 150%;
+}
+p::first-line{
+    text-transform: uppercase;
+}
+
+
+div:hover{
+    color: green;
+}
+.head:hover{
+    color: red;
+    border: 2px solid red;
+}
+
+a:hover{
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,28 @@
+#first{
+    color:rgba(255, 0, 0,1);
+
+}
+
+#second{
+    color:rgba(255, 0, 0,0.87);
+    
+    
+}
+
+#third{
+    color:hsla(0, 100%, 50%, 0.46);
+   
+}
+
+#fourth{
+    color: hsla(0, 22%, 55%, 0.315);
+    background: #0f0;
+}
+
+body{
+    
+background: rgba(141, 112, 141, 0.45);
+}
+
+/* rgb colors have a value from 0-255 
+and rgba alpha has value from 0-1 */

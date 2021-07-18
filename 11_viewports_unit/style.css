@@ -1,0 +1,21 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    background: blue;
+    height: 50vh;
+    width: 100vw;
+
+}
+.hero{
+    background: green;
+    height: 50vh;
+    width: 100vw;
+
+}
+
